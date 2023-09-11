@@ -1,10 +1,15 @@
-# JSON.Multiplier
+# JSON Multiplier
 JSON Multiplier is a script to multiply the objects inside a JSON file.
 Is extremely useful to generate mock data to tests Databases, API Requests, Programming Functions, and anything you need.
 
 ### How to use ?
+
+Install JSON Multiplier Globally
+
+`` npm install -g json-multiplier
+
 Grab a JSON file with only 1 object inside, put this file in the same folder as the script.
-Call the function jsonM.js with the following arguments:
+Type in terminal jsonX with the following arguments:
 
   -  file               string
   -  multiplier         number
@@ -12,7 +17,7 @@ Call the function jsonM.js with the following arguments:
   Optional (default is "_id"):
   -  index              string 
 
-  example: node jsonM.js myFile.json 500 user_id
+  example: jsonX myFile.json 500 user_id
 
 ### Where are my results ? 
 JSON Multiplier will create a folder called "results" and save the results of your call in a filed called:
@@ -34,7 +39,7 @@ Original file:
   }
 }```
 
-node jsonM.js users.json 500 id
+node jsonX users.json 500 id
 
 Results:
 ```[

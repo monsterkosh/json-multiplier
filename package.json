@@ -4,10 +4,10 @@
   "description": "Multiplies the number of objects in a json file",
   "main": "jsonm.js",
   "scripts": {
-    "jsonM": "node jsonm.js"
+    "jsonX": "node index.js"
   },
   "bin": {
-    "jsonm": ".jsonm.js"
+    "jsonX": "index.js"
   },
   "author": "Emiliano Kosh",
   "license": "MIT",

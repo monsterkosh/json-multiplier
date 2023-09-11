@@ -12,7 +12,7 @@ function showHelp() {
   Optional (default is "_id"):
   -  index              string 
 
-  example: node jsonM.js myFile.json 500 user_id
+  example: jsonX myFile.json 500 user_id
   `);
 }
 
