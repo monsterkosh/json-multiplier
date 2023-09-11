@@ -1,0 +1,21 @@
+{
+  "name": "json-multiplier",
+  "version": "1.0.0",
+  "description": "Multiplies the number of objects in a json file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emiliano Kosh",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^20.5.6"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "json",
+    "multiply",
+    "multiplier",
+    "duplicate"
+  ]
+}
