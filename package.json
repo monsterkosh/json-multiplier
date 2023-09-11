@@ -2,9 +2,12 @@
   "name": "json-multiplier",
   "version": "1.0.0",
   "description": "Multiplies the number of objects in a json file",
-  "main": "index.js",
+  "main": "jsonm.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "jsonM": "node jsonm.js"
+  },
+  "bin": {
+    "jsonm": ".jsonm.js"
   },
   "author": "Emiliano Kosh",
   "license": "MIT",

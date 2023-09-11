@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require('fs');
 const path = require('path');
 
@@ -27,8 +29,6 @@ function isJson(file) {
 }
 
 (function main() {
-  // TODO: Remove case sensitive
-
   console.log(`
  ┏┳┏┓┏┓┳┓  ┳┳┓┳┳┓ ┏┳┓┳┏┓┓ ┳┏┓┳┓
   ┃┗┓┃┃┃┃  ┃┃┃┃┃┃  ┃ ┃┃┃┃ ┃┣ ┣┫
