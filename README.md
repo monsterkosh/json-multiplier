@@ -6,7 +6,7 @@ Is extremely useful to generate mock data to tests Databases, API Requests, Prog
 
 Install JSON Multiplier Globally
 
-`` npm install -g json-multiplier ``
+``` npm install -g json-multiplier ```
 
 And JSON Multiplier will be installed globally to your system path.
 
@@ -19,7 +19,7 @@ Type in terminal `` jsonX `` with the following arguments:
   Optional (default is "_id"):
   -  index              string 
 
-  example: `` jsonX myFile.json 500 user_id ``
+  example: ``` jsonX myFile.json 500 user_id ```
 
 ### Where are my results ? 
 JSON Multiplier will create a folder called "results" and save the results of your call in a filed called:
