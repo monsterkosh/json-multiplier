@@ -6,10 +6,12 @@ Is extremely useful to generate mock data to tests Databases, API Requests, Prog
 
 Install JSON Multiplier Globally
 
-`` npm install -g json-multiplier
+`` npm install -g json-multiplier ``
+
+And JSON Multiplier will be installed globally to your system path.
 
 Grab a JSON file with only 1 object inside, put this file in the same folder as the script.
-Type in terminal jsonX with the following arguments:
+Type in terminal `` jsonX `` with the following arguments:
 
   -  file               string
   -  multiplier         number
@@ -17,7 +19,7 @@ Type in terminal jsonX with the following arguments:
   Optional (default is "_id"):
   -  index              string 
 
-  example: jsonX myFile.json 500 user_id
+  example: `` jsonX myFile.json 500 user_id ``
 
 ### Where are my results ? 
 JSON Multiplier will create a folder called "results" and save the results of your call in a filed called:
@@ -29,7 +31,7 @@ JSON Multiplier reads your json file, grabs the first objects and replicate that
 ### Example
 Original file:
 
-```{"user": {
+``` {"user": {
   "id": "000000000000000000000000",
   "name": "John Wick",
   "permissions":[
@@ -37,12 +39,14 @@ Original file:
       {"value": "Open", "onclick": "OpenDoc()"},
    ]
   }
-}```
+}
+```
 
-node jsonX users.json 500 id
+$ jsonX users.json 500 id
 
 Results:
-```[
+```
+[
     {"user": {
   "id": "000000000000000000000000",
   "name": "John Wick",
@@ -71,6 +75,7 @@ Results:
   }
 },
 ... 497 more results
-]```
+]
+```
 
 
