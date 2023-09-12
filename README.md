@@ -1,6 +1,4 @@
-[![npm version](https://badge.fury.io/js/survey-monkey-streams.svg)](//www.npmjs.com/package/json-multiplier)
-
-# JSON Multiplier
+# JSON Multiplier    [![npm version](https://badge.fury.io/js/json-multiplier.png)](https://badge.fury.io/js/json-multiplier)
 JSON Multiplier is a script to multiply the objects inside a JSON file.
 Is extremely useful to generate mock data to tests Databases, API Requests, Programming Functions, and anything you need.
 
