@@ -1,7 +1,6 @@
 function showHelp() {
   console.log(`
-    The first time you run "jsonX" on your terminal it will create a "jsonX" folder on your desktop.
-    Please put your .json files inside this folder and run "jsonX" a second time to check if the files have been read.
+    The first time you run "jsonX" on your terminal it will create a "jsonX" folder on your desktop. Please put your .json files inside this folder and run "jsonX" a second time to check if the files have been read.
   
     To run JSON Multiplier you will need to type "jsonX --run" with the following inputs:
     ።  file               *string
