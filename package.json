@@ -1,6 +1,6 @@
 {
   "name": "json-multiplier",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Multiplies the number of objects in a json file",
   "main": "index.js",
   "scripts": {
