@@ -9,8 +9,7 @@
   "author": "Emiliano Kosh",
   "license": "MIT",
   "dependencies": {
-    "@types/node": "^20.5.6",
-    "json-multiplier": "^1.0.2"
+    "@types/node": "^20.5.6"
   },
   "keywords": [
     "json",

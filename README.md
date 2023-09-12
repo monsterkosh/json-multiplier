@@ -6,7 +6,7 @@ Is extremely useful to generate mock data to tests Databases, API Requests, Prog
 
 
 
-### Version 1.0.2
+### Version 1.0.3
 Release date: 09/12/2023
 
 Changes:
